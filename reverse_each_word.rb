@@ -1,3 +1,6 @@
 def reverse_each_word (sentence)
-  puts sentence.split 
-end 
+def test(sentence)
+ array = []
+ array << sentence.split
+ array.collect {|word| word.reverse}
+end
